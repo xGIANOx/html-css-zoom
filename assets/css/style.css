@@ -8,6 +8,23 @@
     display: flex;
 }
 
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1rem;
+    padding-top: 1rem;
+}
+
+.m-left{
+    margin-left: 1rem;
+}
+
+.flex-col > i{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
 .container-big{
     height: 100vh;
     background-color: rgb(23, 21, 21);
@@ -16,18 +33,18 @@
 .container{
     width: 90%;
     margin: auto;
-    background-color: azure;
+    background-color: rgb(23, 21, 21);
     height: 90vh;
 }
 
 .col{
     flex-wrap: wrap;
-    padding-top: 5rem;
+    padding-top: 8rem;
 }
 
 .card{
     width: calc(100% / 7 - 0.5rem);
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     margin-left: 0.25rem;
     margin-right: 0.25rem;
     position: relative;
@@ -44,4 +61,30 @@
     background-color: #8080805e;
     color: white;
     font-size: 0.9rem;
+}
+
+/* footer */
+
+nav{
+    height: 10vh;
+    background-color: #2f2c2c;
+    line-height: 100%;
+    color: white;
+    justify-content: space-between;
+}
+
+.expand{
+    line-height: 10vh;
+}
+
+.fa-share-from-square{
+    color: green;
+}
+
+.end-meet{
+    color: red;
+    align-items: center;
+    background-color: #464646;
+    line-height: 10vh;
+    padding: 0 1rem;
 }
