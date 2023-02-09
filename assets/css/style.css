@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex{
+    display: flex;
+}
+
+.container-big{
+    height: 100vh;
+    background-color: rgb(23, 21, 21);
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: azure;
+    height: 90vh;
+}
+
+.col{
+    flex-wrap: wrap;
+    padding-top: 5rem;
+}
+
+.card{
+    width: calc(100% / 7 - 0.5rem);
+    margin-top: 1rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    position: relative;
+}
+
+.video{
+    max-width: 100%;
+}
+
+.name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #8080805e;
+    color: white;
+    font-size: 0.9rem;
+}
